@@ -1,9 +1,0 @@
-{
-    "name": "Ads",
-    "namespace": "Botble\\Ads\\",
-    "provider": "Botble\\Ads\\Providers\\AdsServiceProvider",
-    "author": "Manuel Davila",
-    "url": "https://www.freelancer.com/u/MdavilaR?frm=MdavilaR&sb=t",
-    "version": "1.0",
-    "description": "Anuncios personalizados"
-}
