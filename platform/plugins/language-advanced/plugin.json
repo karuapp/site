@@ -1,0 +1,11 @@
+{
+    "id": "botble/language-advanced",
+    "name": "Idiomas Avanzados",
+    "namespace": "Botble\\LanguageAdvanced\\",
+    "provider": "Botble\\LanguageAdvanced\\Providers\\LanguageAdvancedServiceProvider",
+    "author": "Manuel Davila",
+    "url": "https://www.freelancer.com/u/MdavilaR?frm=MdavilaR&sb=t",
+    "version": "1.2.0",
+    "description": "Funciones Avanzadas de Idioma multi lenguajes",
+    "require": ["language"]
+}

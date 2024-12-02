@@ -1,0 +1,10 @@
+{
+    "id": "botble/newsletter",
+    "name": "Boletin informativo",
+    "namespace": "Botble\\Newsletter\\",
+    "provider": "Botble\\Newsletter\\Providers\\NewsletterServiceProvider",
+     "author": "Manuel Davila",
+    "url": "https://www.freelancer.com/u/MdavilaR?frm=MdavilaR&sb=t",
+    "version": "2.0",
+    "description": "Boletin informativo"
+}

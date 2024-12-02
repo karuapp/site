@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'name' => 'Facturas',
+'create' => 'Nueva factura',
+'edit' => 'Editar factura',
+'print' => 'Imprimir factura',
+'download' => 'Descargar factura',
+'heading' => 'Factura',
+'invoice_for_job' => '',
+'table' => [
+    'code' => 'Código',
+    'amount' => 'Monto',
+],
+'detail' => [
+    'invoice_for' => 'Factura para',
+    'invoice_to' => 'Factura a',
+    'tax_id' => 'ID de impuestos',
+    'code' => 'Código de factura',
+    'issue_at' => 'Fecha de emisión',
+    'description' => 'Descripción',
+    'qty' => 'Cantidad',
+    'amount' => 'Monto',
+    'discount' => 'Descuento',
+    'grand_total' => 'Gran total',
+    'shipping_fee' => 'Tarifa de envío',
+    'sub_total' => 'Subtotal',
+    'tax' => 'Impuesto',
+    'total' => 'Total',
+],
+'total_amount' => 'Monto total',
+'payment_info' => 'Información de pago',
+'payment_method' => 'Método de pago',
+'payment_status' => 'Estado de pago',
+];

@@ -1,0 +1,10 @@
+{
+    "id": "botble/backup",
+    "name": "Respaldo",
+    "namespace": "Botble\\Backup\\",
+    "provider": "Botble\\Backup\\Providers\\BackupServiceProvider",
+    "author": "Manuel Davila",
+    "url": "https://www.freelancer.com/u/MdavilaR?frm=MdavilaR&sb=t",
+    "version": "2.0",
+    "description": "Copia de seguridad y restauración de base de datos, carpeta de cargas"
+}

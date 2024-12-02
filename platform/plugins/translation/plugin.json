@@ -1,0 +1,10 @@
+{
+    "id": "botble/translation",
+    "name": "Traducción",
+    "namespace": "Botble\\Translation\\",
+    "provider": "Botble\\Translation\\Providers\\TranslationServiceProvider",
+     "author": "Manuel Davila",
+    "url": "https://www.freelancer.com/u/MdavilaR?frm=MdavilaR&sb=t",
+    "version": "2.0",
+    "description": "Administrar texto de traducción"
+}

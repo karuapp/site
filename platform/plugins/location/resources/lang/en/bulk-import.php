@@ -1,0 +1,47 @@
+<?php
+
+return [
+    'name' => 'Importación masiva',
+'loading_text' => 'Importando',
+'imported_successfully' => 'Importado con éxito.',
+'please_choose_the_file_mime' => 'Por favor, elige el tipo de archivo mime: :types',
+'please_choose_the_file' => 'Por favor, elige el archivo',
+'start_import' => 'Iniciar importación',
+'note' => '¡Nota!',
+'warning_before_importing' => 'Si es la primera vez que utilizas esta función, por favor, lee la documentación o ponte en contacto con el administrador para acceder a la funcionalidad correcta.',
+'results' => 'Resultado: :success éxitos, :failed fallos',
+'failures' => 'Fallos',
+'tables' => [
+    'import' => 'Importar',
+],
+'template' => 'Plantilla',
+'rules' => 'Reglas',
+'choose_file_with_mime' => 'Elegir archivo con mime: (:types)',
+'choose_file' => 'Elegir archivo',
+'menu' => 'Importar ubicaciones',
+'download-csv-file' => 'Descargar plantilla CSV',
+'download-excel-file' => 'Descargar plantilla Excel',
+'downloading' => 'Descargando...',
+'export' => [
+    'template' => [
+        'input_error' => 'Error de entrada',
+        'number_not_allowed' => '¡Número no permitido!',
+        'allowed_input' => 'Entrada permitida',
+        'prompt_decimal' => 'Solo se aceptan números o decimales y deben ser mayores o iguales a :min.',
+        'prompt_whole_number' => 'Solo se aceptan números y deben ser mayores o iguales a :min.',
+        'prompt_list' => 'Por favor, elige un valor de la lista desplegable.',
+        'pick_from_list' => 'Seleccionar de la lista',
+        'value_not_in_list' => 'El valor no está en la lista.',
+        'max_text_length' => 'Longitud máxima del texto',
+        'prompt_max_text_length' => 'Solo se acepta texto con longitud menor o igual a :max.',
+    ],
+],
+'import_failed_description' => 'La importación falló, ¡por favor, verifica los errores a continuación!',
+'available_enable_multi_language' => 'Solo disponible cuando activas "¿Es multiidioma?"',
+'import_type_required_if' => 'El campo :attribute es obligatorio cuando "Tipo de importación" es :value.',
+'import_available_data' => 'Importar datos disponibles',
+'import' => 'Importar',
+'import_available_data_confirmation' => 'Confirmación de importación de datos disponibles',
+'import_available_data_confirmation_content' => '¿Realmente quieres importar estados/ciudades para este país?',
+
+];

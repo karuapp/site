@@ -1,0 +1,48 @@
+<?php
+
+return [
+   'name' => 'Importación Masiva',
+'loading_text' => 'Importando',
+'imported_successfully' => 'Importado exitosamente.',
+'please_choose_the_file_mime' => 'Por favor, elija el tipo de archivo mime: :types',
+'please_choose_the_file' => 'Por favor, elija el archivo',
+'start_import' => 'Iniciar Importación',
+'note' => '¡Nota!',
+'warning_before_importing' => 'Si es la primera vez que utiliza esta función, lea la documentación o contacte al administrador para acceder a la funcionalidad correcta.',
+'results' => 'Resultado: :success éxitos, :failed fallos',
+'failures' => 'Fallos',
+'tables' => [
+    'import' => 'Importar',
+],
+'template' => 'Plantilla',
+'rules' => 'Reglas',
+'choose_file_with_mime' => 'Elija un archivo con mime: (:types)',
+'choose_file' => 'Elija un archivo',
+'menu' => 'Importar productos',
+'download-csv-file' => 'Descargar plantilla CSV',
+'download-excel-file' => 'Descargar plantilla Excel',
+'downloading' => 'Descargando...',
+'export' => [
+    'template' => [
+        'input_error' => 'Error de entrada',
+        'number_not_allowed' => '¡Número no permitido!',
+        'allowed_input' => 'Entrada permitida',
+        'prompt_decimal' => 'Solo se aceptan números o decimales mayores o iguales a :min.',
+        'prompt_whole_number' => 'Solo se aceptan números mayores o iguales a :min.',
+        'prompt_list' => 'Por favor, elija un valor de la lista desplegable.',
+        'pick_from_list' => 'Elegir de la lista',
+        'value_not_in_list' => 'El valor no está en la lista.',
+    ],
+],
+'import_failed_description' => 'La importación falló, ¡por favor, revise los errores a continuación!',
+'column' => 'Columna',
+'row' => 'Fila',
+'attribute' => 'Atributo',
+'errors' => 'Errores',
+'import_types' => [
+    'name' => 'Tipo de Importación',
+    'all' => 'Todo',
+    'products' => 'Productos',
+    'variations' => 'Variaciones',
+    ],
+];

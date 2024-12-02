@@ -1,0 +1,11 @@
+{
+    "id": "botble/razorpay",
+    "name": "Razorpay Payment Gateway",
+    "namespace": "Botble\\Razorpay\\",
+    "provider": "Botble\\Razorpay\\Providers\\RazorpayServiceProvider",
+    "author": "Manuel Davila",
+    "url": "https://www.freelancer.com/u/MdavilaR?frm=MdavilaR&sb=t",
+    "version": "1.0",
+    "description": "Razorpay payment gateway integration",
+    "require": ["payment"]
+}

@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'create' => 'Crear nueva publicación',
+'edit' => 'Editar publicación',
+'form' => [
+    'name' => 'Nombre',
+    'name_placeholder' => 'Nombre de la publicación (Máximo :c caracteres)',
+    'description' => 'Descripción',
+    'description_placeholder' => 'Breve descripción de la publicación (Máximo :c caracteres)',
+    'categories' => 'Categorías',
+    'tags' => 'Etiquetas',
+    'tags_placeholder' => 'Etiquetas',
+    'content' => 'Contenido',
+    'is_featured' => '¿Es destacada?',
+    'note' => 'Contenido de la nota',
+    'format_type' => 'Formato',
+],
+'cannot_delete' => 'La publicación no pudo ser eliminada',
+'post_deleted' => 'Publicación eliminada',
+'posts' => 'Publicaciones',
+'post' => 'Publicación',
+'edit_this_post' => 'Editar esta publicación',
+'no_new_post_now' => '¡No hay nuevas publicaciones ahora!',
+'menu_name' => 'Publicaciones',
+'widget_posts_recent' => 'Publicaciones recientes',
+'categories' => 'Categorías',
+'category' => 'Categoría',
+'author' => 'Autor',
+];

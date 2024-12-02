@@ -1,0 +1,10 @@
+{
+    "id": "botble/captcha",
+    "name": "Captcha",
+    "namespace": "Botble\\Captcha\\",
+    "provider": "Botble\\Captcha\\Providers\\CaptchaServiceProvider",
+    "author": "Manuel Davila",
+    "url": "https://www.freelancer.com/u/MdavilaR?frm=MdavilaR&sb=t",
+    "version": "2.0",
+    "description": "Captcha para mayor seguridad"
+}
