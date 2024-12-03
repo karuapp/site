@@ -25,8 +25,8 @@ mix.minify([
   "assets/plugins/internal/highlight/highlight.js",
   "assets/plugins/internal/hotkeys/hotkeys.js",
   "assets/plugins/internal/desktop-notifications/notifications.js",
-  "assets/themes/perfex/js/clients.js",
-  "assets/themes/perfex/js/global.js",
+  "assets/themes/CRM/js/clients.js",
+  "assets/themes/CRM/js/global.js",
   "assets/js/main.js",
   "assets/js/map.js",
   "assets/js/projects.js",
@@ -172,7 +172,7 @@ mix.webpackConfig((webpack) => {
 });
 
 mix.minify([
-  "assets/themes/perfex/css/style.css",
+  "assets/themes/CRM/css/style.css",
   "assets/css/forms.css",
   "assets/css/style.css",
   "assets/css/reset.css",
@@ -189,8 +189,8 @@ if (mix.inProduction()) {
       "assets/js/map.min.js",
       "assets/js/projects.min.js",
       "assets/js/tickets.min.js",
-      "assets/themes/perfex/js/clients.min.js",
-      "assets/themes/perfex/js/global.min.js",
+      "assets/themes/CRM/js/clients.min.js",
+      "assets/themes/CRM/js/global.min.js",
     ].forEach((headerableFile) => {
       const data = fs.readFileSync(headerableFile);
       const fd = fs.openSync(headerableFile, "w+");

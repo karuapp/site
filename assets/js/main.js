@@ -8659,13 +8659,13 @@ function init_new_task_comment(manual) {
 }
 
 function initializeTinyMceMentions(editor, usersCallback) {
-  if(!Object.hasOwn(editor, 'perfexCommands')) {
-    editor.perfexCommands = {}
+  if(!Object.hasOwn(editor, 'CRMCommands')) {
+    editor.CRMCommands = {}
   }
 
   let cachedUsers = null;
 
-  editor.perfexCommands.getUsersForMention = async function() {
+  editor.CRMCommands.getUsersForMention = async function() {
     if(Array.isArray(cachedUsers)) {
       return cachedUsers
     }
@@ -8679,7 +8679,7 @@ function initializeTinyMceMentions(editor, usersCallback) {
 
     return cachedUsers
   },
-  editor.perfexCommands.insertMentionUser = function (id, name, rng) {
+  editor.CRMCommands.insertMentionUser = function (id, name, rng) {
     // Insert in to the editor
     editor.selection.setRng(rng || 0)
 
@@ -8700,15 +8700,15 @@ function initializeTinyMceMentions(editor, usersCallback) {
     // Retrieve the available users
     fetch: function (pattern) {
       return new Promise(resolve =>
-          resolve(editor.perfexCommands.getUsersForMention())
+          resolve(editor.CRMCommands.getUsersForMention())
       )
     },
 
     // Executed when user is selected from the dropdown
     onAction: function (autocompleteApi, rng, value) {
-      editor.perfexCommands.getUsersForMention().then(users=> {
+      editor.CRMCommands.getUsersForMention().then(users=> {
         let user = users.find(user=>user.value == value)
-        editor.perfexCommands.insertMentionUser(value, user.text, rng)
+        editor.CRMCommands.insertMentionUser(value, user.text, rng)
         autocompleteApi.hide()
       })
     },

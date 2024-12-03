@@ -1,8 +1,8 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <div class="row">
-    <!--div class="col-md-12">
+    <div class="col-md-12">
         <?= render_input('settings[purchase_key]', 'purchase_key', get_option('purchase_key'), 'text', ['data-ays-ignore' => true]); ?>
-    </div-->
+    </div>
     <div class="col-md-6 text-center">
         <div
             class="alert alert-<?= $latest_version > $current_version ? 'danger' : 'info'; ?>">

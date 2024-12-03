@@ -45,14 +45,14 @@
                                             </li>
                                             <?php } ?>
                                             <?php if ($sectionId === 'general') { ?>
-                                            <!--li class="settings-group-system-update">
+                                            <li class="settings-group-system-update">
                                                 <a href="<?= admin_url('settings?group=update'); ?>"
                                                     class="tw-group tw-flex tw-items-center tw-text-sm hover:tw-text-neutral-800 focus:tw-text-neutral-800 tw-font-medium tw-gap-2.5 <?= ($group['id'] === 'update') ? ' tw-text-neutral-800' : 'tw-text-neutral-600' ?>">
                                                     <i
                                                         class="fa-solid fa-hammer fa-fw fa-lg tw-mr-0.5 group-hover:tw-text-neutral-800 <?= $group['id'] === 'update' ? 'tw-text-neutral-800' : 'tw-text-neutral-500'; ?>"></i>
                                                     <span><?= _l('settings_update'); ?></span>
                                                 </a>
-                                            </li-->
+                                            </li>
 
                                             <?php if (is_admin()) { ?>
                                             <li class="settings-group-system-info">
